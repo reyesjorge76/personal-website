@@ -1,0 +1,186 @@
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+}
+
+.menu-item {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.menu-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.btn-add {
+  background-color: #ff9800;
+  color: #222;
+}
+
+.btn-remove {
+  background-color: #ff5733;
+  color: #222;
+}
+
+.btn-purchase {
+  background-color: #ff9800;
+  color: #222;
+}
+.btn-checkout {
+  background-color: #ff9800;
+  color: #222;
+}
+
+.btn-submit {
+  background-color: #ff9800;
+  color: #222;
+}
+
+.cart-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+}
+.cart-container {
+  background-color: #444;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.map-container {
+  width: 100%;
+  height: 350px;
+}
+.contact-section {
+  padding: 40px;
+  background-color: #333;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.form-control {
+  margin-bottom: 15px;
+}
+
+.about-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+}
+.about-section {
+  background-color: #444;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.team-member img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.gallery-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+}
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.gallery-item {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+.gallery-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+.lightbox img {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+}
+.lightbox.active {
+  display: flex;
+}
+
+.merch-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+}
+.product-item {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.product-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.event-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+}
+.event-item {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.event-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+.cta-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.order-header {
+  text-align: center;
+  padding: 50px;
+  background-color: #333;
+}
+.order-container {
+  background-color: #444;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+}

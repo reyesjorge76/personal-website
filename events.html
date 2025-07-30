@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piston & Chrome Events</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container bg-dark text-white">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between">
+          <!-- Logo -->
+          <a class="navbar-brand" href="./Images/piston x.jpg">
+            <img
+              src="./Images/Logo for Piston and .png"
+              alt="Piston and Chrome Logo"
+              width="100"
+              height="100"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+
+          <!-- Navbar Toggle -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <!-- Dropdown Menu -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./about-us.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./merchandice.html">Merch</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="./images.html">Images</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Search Bar 
+            <form class="d-flex ms-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>-->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Event Page Header -->
+    <div class="event-header text-center mt-5">
+      <h1>
+        Upcoming<br />
+        🔥 Events 🔥
+      </h1>
+      <p>
+        Join us for thrilling bike meetups, car shows, legendary taco nights and
+        unforgettable moments.
+      </p>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Event 1 -->
+        <div class="col-md-4">
+          <div class="event-item my-4 text-center">
+            <img
+              class="img-fluid"
+              src="./Images/bike-rally.jpg"
+              alt="Biker Meetup"
+            />
+            <h2>Bike Night</h2>
+            <p>
+              Great place to meet fellow riders, enjoy live music, and feast on
+              exclusive Tacos!
+            </p>
+            <p>
+              💀 You showed up to Taco Bike Night alone? 💀 <br />
+              Either your bike’s too loud, your tacos are too mild, or—let’s be
+              real—you might need a serious charm upgrade!
+            </p>
+            <p><strong>Date:</strong> June 15, 2025</p>
+            <a href="#" class="btn btn-warning">RSVP Now</a>
+          </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="col-md-4">
+          <div class="event-item my-4 text-center">
+            <img
+              class="img-fluid"
+              src="./Images/muscle-car.webp"
+              alt="Car Show"
+            />
+            <h2>Muscle Car Showcase</h2>
+            <p>
+              🏁 Witness jaw-dropping classic and custom builds while enjoying
+              Turbo Tacos!
+            </p>
+            <p><strong>Date:</strong> July 4, 2025</p>
+            <a href="#" class="btn btn-warning">Join the Show</a>
+          </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="col-md-4">
+          <div class="event-item text-center">
+            <img
+              class="img-fluid"
+              src="./Images/taco-fest.jpg"
+              alt="Taco Festival"
+            />
+            <h2>Piston & Chrome Taco Fest</h2>
+            <p>
+              🌮 Unlimited tacos, spicy challenges, and live entertainment for
+              all gearheads!
+            </p>
+            <p><strong>Date:</strong> August 20, 2025</p>
+            <a href="#" class="btn btn-warning">Get Your Ticket</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- Call-to-Action Section -->
+    <div class="cta-section text-center mt-3">
+      <h2>🏁 Ready to Join the Action? 🏁</h2>
+      <p>
+        Be part of *Piston & Chrome’s* legendary events—where passion for cars,
+        bikes, and great food collide!
+      </p>
+      <a href="#" class="btn btn-danger btn-lg"
+        >Sign Up for Exclusive Event Updates</a
+      >
+    </div>
+
+    <footer class="text-center py-4">
+      <p>
+        &copy; 2025 Piston & Chrome | Follow us on <a href="#">Instagram</a>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
